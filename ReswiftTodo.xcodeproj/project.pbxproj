@@ -7,13 +7,56 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		44793C7228CB619D00063B89 /* ReSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 44793C7128CB619D00063B89 /* ReSwift */; };
+		44793C7528CB61FD00063B89 /* ReSwiftThunk in Frameworks */ = {isa = PBXBuildFile; productRef = 44793C7428CB61FD00063B89 /* ReSwiftThunk */; };
+		44793C7928CB653100063B89 /* NoteState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44793C7828CB653100063B89 /* NoteState.swift */; };
+		44793C7B28CB65BA00063B89 /* NoteStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44793C7A28CB65BA00063B89 /* NoteStore.swift */; };
+		44793C7D28CB661D00063B89 /* NoteReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44793C7C28CB661D00063B89 /* NoteReducer.swift */; };
+		44793C7F28CB67B600063B89 /* NoteAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44793C7E28CB67B600063B89 /* NoteAction.swift */; };
+		44793C8128CC3E7E00063B89 /* NotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44793C8028CC3E7E00063B89 /* NotesView.swift */; };
+		44793C8328CC3FA700063B89 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44793C8228CC3FA700063B89 /* LoginView.swift */; };
+		44793C8528CC40A700063B89 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44793C8428CC40A700063B89 /* RegistrationView.swift */; };
+		44793C8C28CC518B00063B89 /* NoteThunk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44793C8B28CC518B00063B89 /* NoteThunk.swift */; };
+		44793C9128CC605700063B89 /* ObservableState+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44793C9028CC605700063B89 /* ObservableState+Extension.swift */; };
 		44C91B4128CB3CC70093B571 /* ReswiftTodoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C91B4028CB3CC70093B571 /* ReswiftTodoApp.swift */; };
 		44C91B4328CB3CC70093B571 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C91B4228CB3CC70093B571 /* ContentView.swift */; };
 		44C91B4528CB3CCB0093B571 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44C91B4428CB3CCB0093B571 /* Assets.xcassets */; };
 		44C91B4828CB3CCB0093B571 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44C91B4728CB3CCB0093B571 /* Preview Assets.xcassets */; };
-		44C91B5228CB3CCB0093B571 /* ReswiftTodoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C91B5128CB3CCB0093B571 /* ReswiftTodoTests.swift */; };
+		44C91B5228CB3CCB0093B571 /* FileUtilManagerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C91B5128CB3CCB0093B571 /* FileUtilManagerTest.swift */; };
 		44C91B5C28CB3CCB0093B571 /* ReswiftTodoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C91B5B28CB3CCB0093B571 /* ReswiftTodoUITests.swift */; };
 		44C91B5E28CB3CCB0093B571 /* ReswiftTodoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C91B5D28CB3CCB0093B571 /* ReswiftTodoUITestsLaunchTests.swift */; };
+		44C91B6C28CB3E800093B571 /* Nimble in Frameworks */ = {isa = PBXBuildFile; productRef = 44C91B6B28CB3E800093B571 /* Nimble */; };
+		44C91B6F28CB3EC20093B571 /* Quick in Frameworks */ = {isa = PBXBuildFile; productRef = 44C91B6E28CB3EC20093B571 /* Quick */; };
+		44C91B7728CB3F670093B571 /* UserFM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C91B7628CB3F670093B571 /* UserFM.swift */; };
+		44C91B7B28CB3F920093B571 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C91B7A28CB3F920093B571 /* User.swift */; };
+		44C91B7E28CB3FC30093B571 /* FileManagerUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C91B7D28CB3FC30093B571 /* FileManagerUtil.swift */; };
+		44C91B8028CB44430093B571 /* NoteFM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C91B7F28CB44430093B571 /* NoteFM.swift */; };
+		44C91B8228CB44570093B571 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C91B8128CB44570093B571 /* Note.swift */; };
+		44C91B8628CB47160093B571 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C91B8528CB47160093B571 /* Date+Extension.swift */; };
+		44C91B8828CB56350093B571 /* Data+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C91B8728CB56350093B571 /* Data+Extension.swift */; };
+		44C91B8A28CB564A0093B571 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C91B8928CB564A0093B571 /* String+Extension.swift */; };
+		44C91B8D28CB5AAD0093B571 /* KeyChainManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C91B8C28CB5AAD0093B571 /* KeyChainManager.swift */; };
+		44C91B9028CB5B4B0093B571 /* KeychainSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 44C91B8F28CB5B4B0093B571 /* KeychainSwift */; };
+		44C91B9328CB5CEC0093B571 /* UserUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C91B9228CB5CEC0093B571 /* UserUseCase.swift */; };
+		44C91B9528CB5CF40093B571 /* NotesUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C91B9428CB5CF40093B571 /* NotesUseCase.swift */; };
+		44D27A1E28CCDD9500CE3494 /* Int64+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D27A1D28CCDD9500CE3494 /* Int64+Extension.swift */; };
+		44D27A2128CDB4AC00CE3494 /* AuthenticationState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D27A2028CDB4AC00CE3494 /* AuthenticationState.swift */; };
+		44D27A2328CDB4CF00CE3494 /* AuthenticationStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D27A2228CDB4CF00CE3494 /* AuthenticationStore.swift */; };
+		44D27A2528CDB51300CE3494 /* AuthenticationAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D27A2428CDB51300CE3494 /* AuthenticationAction.swift */; };
+		44D27A2728CDB57500CE3494 /* AuthenticationReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D27A2628CDB57500CE3494 /* AuthenticationReducer.swift */; };
+		44D27A2928CDB8E000CE3494 /* AuthenticationThunk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D27A2828CDB8E000CE3494 /* AuthenticationThunk.swift */; };
+		44D27A2C28CDF28400CE3494 /* NavigationState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D27A2B28CDF28400CE3494 /* NavigationState.swift */; };
+		44D27A2E28CDF2B100CE3494 /* NavigationStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D27A2D28CDF2B100CE3494 /* NavigationStore.swift */; };
+		44D27A3028CDF2E700CE3494 /* NavigationReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D27A2F28CDF2E700CE3494 /* NavigationReducer.swift */; };
+		44D27A3228CDF30F00CE3494 /* NavigationAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D27A3128CDF30F00CE3494 /* NavigationAction.swift */; };
+		44D27A3628CE13F200CE3494 /* ReswiftTodoDb.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 44D27A3428CE13F200CE3494 /* ReswiftTodoDb.xcdatamodeld */; };
+		44D27A3D28CE15A600CE3494 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D27A3C28CE15A600CE3494 /* Repository.swift */; };
+		44D27A4428CE1CC400CE3494 /* UserCD+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D27A4328CE1CC400CE3494 /* UserCD+Extension.swift */; };
+		44D27A4628CE24ED00CE3494 /* UserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D27A4528CE24ED00CE3494 /* UserRepository.swift */; };
+		44D27A4828CE32B700CE3494 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D27A4728CE32B700CE3494 /* String+Extensions.swift */; };
+		44D27A4A28CE46C300CE3494 /* ObservableAuthState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D27A4928CE46C300CE3494 /* ObservableAuthState.swift */; };
+		44D27A4C28CE4BEE00CE3494 /* NavigationTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D27A4B28CE4BEE00CE3494 /* NavigationTag.swift */; };
+		44D27A4E28CE6FDA00CE3494 /* NotesTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D27A4D28CE6FDA00CE3494 /* NotesTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,16 +77,54 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		44793C7828CB653100063B89 /* NoteState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteState.swift; sourceTree = "<group>"; };
+		44793C7A28CB65BA00063B89 /* NoteStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteStore.swift; sourceTree = "<group>"; };
+		44793C7C28CB661D00063B89 /* NoteReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteReducer.swift; sourceTree = "<group>"; };
+		44793C7E28CB67B600063B89 /* NoteAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteAction.swift; sourceTree = "<group>"; };
+		44793C8028CC3E7E00063B89 /* NotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesView.swift; sourceTree = "<group>"; };
+		44793C8228CC3FA700063B89 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		44793C8428CC40A700063B89 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		44793C8B28CC518B00063B89 /* NoteThunk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteThunk.swift; sourceTree = "<group>"; };
+		44793C9028CC605700063B89 /* ObservableState+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ObservableState+Extension.swift"; sourceTree = "<group>"; };
 		44C91B3D28CB3CC70093B571 /* ReswiftTodo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReswiftTodo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44C91B4028CB3CC70093B571 /* ReswiftTodoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReswiftTodoApp.swift; sourceTree = "<group>"; };
 		44C91B4228CB3CC70093B571 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		44C91B4428CB3CCB0093B571 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		44C91B4728CB3CCB0093B571 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		44C91B4D28CB3CCB0093B571 /* ReswiftTodoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReswiftTodoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		44C91B5128CB3CCB0093B571 /* ReswiftTodoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReswiftTodoTests.swift; sourceTree = "<group>"; };
+		44C91B5128CB3CCB0093B571 /* FileUtilManagerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileUtilManagerTest.swift; sourceTree = "<group>"; };
 		44C91B5728CB3CCB0093B571 /* ReswiftTodoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReswiftTodoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		44C91B5B28CB3CCB0093B571 /* ReswiftTodoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReswiftTodoUITests.swift; sourceTree = "<group>"; };
 		44C91B5D28CB3CCB0093B571 /* ReswiftTodoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReswiftTodoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		44C91B7628CB3F670093B571 /* UserFM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserFM.swift; sourceTree = "<group>"; };
+		44C91B7A28CB3F920093B571 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		44C91B7D28CB3FC30093B571 /* FileManagerUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerUtil.swift; sourceTree = "<group>"; };
+		44C91B7F28CB44430093B571 /* NoteFM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteFM.swift; sourceTree = "<group>"; };
+		44C91B8128CB44570093B571 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		44C91B8528CB47160093B571 /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		44C91B8728CB56350093B571 /* Data+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Extension.swift"; sourceTree = "<group>"; };
+		44C91B8928CB564A0093B571 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		44C91B8C28CB5AAD0093B571 /* KeyChainManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyChainManager.swift; sourceTree = "<group>"; };
+		44C91B9228CB5CEC0093B571 /* UserUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserUseCase.swift; sourceTree = "<group>"; };
+		44C91B9428CB5CF40093B571 /* NotesUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesUseCase.swift; sourceTree = "<group>"; };
+		44D27A1D28CCDD9500CE3494 /* Int64+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int64+Extension.swift"; sourceTree = "<group>"; };
+		44D27A2028CDB4AC00CE3494 /* AuthenticationState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationState.swift; sourceTree = "<group>"; };
+		44D27A2228CDB4CF00CE3494 /* AuthenticationStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationStore.swift; sourceTree = "<group>"; };
+		44D27A2428CDB51300CE3494 /* AuthenticationAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationAction.swift; sourceTree = "<group>"; };
+		44D27A2628CDB57500CE3494 /* AuthenticationReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationReducer.swift; sourceTree = "<group>"; };
+		44D27A2828CDB8E000CE3494 /* AuthenticationThunk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationThunk.swift; sourceTree = "<group>"; };
+		44D27A2B28CDF28400CE3494 /* NavigationState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationState.swift; sourceTree = "<group>"; };
+		44D27A2D28CDF2B100CE3494 /* NavigationStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStore.swift; sourceTree = "<group>"; };
+		44D27A2F28CDF2E700CE3494 /* NavigationReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationReducer.swift; sourceTree = "<group>"; };
+		44D27A3128CDF30F00CE3494 /* NavigationAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationAction.swift; sourceTree = "<group>"; };
+		44D27A3528CE13F200CE3494 /* ReswiftTodoDb.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ReswiftTodoDb.xcdatamodel; sourceTree = "<group>"; };
+		44D27A3C28CE15A600CE3494 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		44D27A4328CE1CC400CE3494 /* UserCD+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserCD+Extension.swift"; sourceTree = "<group>"; };
+		44D27A4528CE24ED00CE3494 /* UserRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRepository.swift; sourceTree = "<group>"; };
+		44D27A4728CE32B700CE3494 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		44D27A4928CE46C300CE3494 /* ObservableAuthState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableAuthState.swift; sourceTree = "<group>"; };
+		44D27A4B28CE4BEE00CE3494 /* NavigationTag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationTag.swift; sourceTree = "<group>"; };
+		44D27A4D28CE6FDA00CE3494 /* NotesTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +132,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44C91B9028CB5B4B0093B571 /* KeychainSwift in Frameworks */,
+				44793C7228CB619D00063B89 /* ReSwift in Frameworks */,
+				44793C7528CB61FD00063B89 /* ReSwiftThunk in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +142,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44C91B6F28CB3EC20093B571 /* Quick in Frameworks */,
+				44C91B6C28CB3E800093B571 /* Nimble in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +157,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		44793C8628CC427F00063B89 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				44793C8228CC3FA700063B89 /* LoginView.swift */,
+				44793C8428CC40A700063B89 /* RegistrationView.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		44793C8728CC428E00063B89 /* Notes */ = {
+			isa = PBXGroup;
+			children = (
+				44793C8028CC3E7E00063B89 /* NotesView.swift */,
+			);
+			path = Notes;
+			sourceTree = "<group>";
+		};
+		44793C8D28CC5DD800063B89 /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				44D27A2A28CDF26E00CE3494 /* Navigation */,
+				44D27A1F28CCE36700CE3494 /* Authentication */,
+				44793C8E28CC5DDF00063B89 /* Notes */,
+			);
+			path = Feature;
+			sourceTree = "<group>";
+		};
+		44793C8E28CC5DDF00063B89 /* Notes */ = {
+			isa = PBXGroup;
+			children = (
+				44793C7828CB653100063B89 /* NoteState.swift */,
+				44793C7A28CB65BA00063B89 /* NoteStore.swift */,
+				44793C7C28CB661D00063B89 /* NoteReducer.swift */,
+				44793C7E28CB67B600063B89 /* NoteAction.swift */,
+				44793C8B28CC518B00063B89 /* NoteThunk.swift */,
+			);
+			path = Notes;
+			sourceTree = "<group>";
+		};
+		44793C8F28CC5FE200063B89 /* UIHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				44793C9028CC605700063B89 /* ObservableState+Extension.swift */,
+				44D27A4728CE32B700CE3494 /* String+Extensions.swift */,
+			);
+			path = UIHelpers;
+			sourceTree = "<group>";
+		};
 		44C91B3428CB3CC70093B571 = {
 			isa = PBXGroup;
 			children = (
@@ -94,10 +228,15 @@
 		44C91B3F28CB3CC70093B571 /* ReswiftTodo */ = {
 			isa = PBXGroup;
 			children = (
+				44D27A3728CE14D300CE3494 /* CoreDataPlatform */,
+				44C91B8B28CB5A980093B571 /* KeyChainPlatform */,
+				44C91B8328CB46FB0093B571 /* Application */,
+				44C91B7828CB3F780093B571 /* Domain */,
+				44C91B7228CB3F330093B571 /* JSONPlatform */,
 				44C91B4028CB3CC70093B571 /* ReswiftTodoApp.swift */,
-				44C91B4228CB3CC70093B571 /* ContentView.swift */,
 				44C91B4428CB3CCB0093B571 /* Assets.xcassets */,
 				44C91B4628CB3CCB0093B571 /* Preview Content */,
+				44D27A3428CE13F200CE3494 /* ReswiftTodoDb.xcdatamodeld */,
 			);
 			path = ReswiftTodo;
 			sourceTree = "<group>";
@@ -113,7 +252,8 @@
 		44C91B5028CB3CCB0093B571 /* ReswiftTodoTests */ = {
 			isa = PBXGroup;
 			children = (
-				44C91B5128CB3CCB0093B571 /* ReswiftTodoTests.swift */,
+				44C91B5128CB3CCB0093B571 /* FileUtilManagerTest.swift */,
+				44D27A4D28CE6FDA00CE3494 /* NotesTest.swift */,
 			);
 			path = ReswiftTodoTests;
 			sourceTree = "<group>";
@@ -125,6 +265,150 @@
 				44C91B5D28CB3CCB0093B571 /* ReswiftTodoUITestsLaunchTests.swift */,
 			);
 			path = ReswiftTodoUITests;
+			sourceTree = "<group>";
+		};
+		44C91B7228CB3F330093B571 /* JSONPlatform */ = {
+			isa = PBXGroup;
+			children = (
+				44C91B9128CB5CDC0093B571 /* UseCase */,
+				44C91B7C28CB3FAB0093B571 /* Utils */,
+				44C91B7528CB3F520093B571 /* Model */,
+			);
+			path = JSONPlatform;
+			sourceTree = "<group>";
+		};
+		44C91B7528CB3F520093B571 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				44C91B7628CB3F670093B571 /* UserFM.swift */,
+				44C91B7F28CB44430093B571 /* NoteFM.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		44C91B7828CB3F780093B571 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				44C91B7928CB3F850093B571 /* Model */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		44C91B7928CB3F850093B571 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				44C91B7A28CB3F920093B571 /* User.swift */,
+				44C91B8128CB44570093B571 /* Note.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		44C91B7C28CB3FAB0093B571 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				44C91B7D28CB3FC30093B571 /* FileManagerUtil.swift */,
+				44C91B8728CB56350093B571 /* Data+Extension.swift */,
+				44C91B8928CB564A0093B571 /* String+Extension.swift */,
+				44D27A1D28CCDD9500CE3494 /* Int64+Extension.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		44C91B8328CB46FB0093B571 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				44793C8D28CC5DD800063B89 /* Feature */,
+				44C91B9628CB5E2C0093B571 /* Views */,
+				44C91B8428CB47020093B571 /* Utils */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		44C91B8428CB47020093B571 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				44C91B8528CB47160093B571 /* Date+Extension.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		44C91B8B28CB5A980093B571 /* KeyChainPlatform */ = {
+			isa = PBXGroup;
+			children = (
+				44C91B8C28CB5AAD0093B571 /* KeyChainManager.swift */,
+			);
+			path = KeyChainPlatform;
+			sourceTree = "<group>";
+		};
+		44C91B9128CB5CDC0093B571 /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+				44C91B9228CB5CEC0093B571 /* UserUseCase.swift */,
+				44C91B9428CB5CF40093B571 /* NotesUseCase.swift */,
+			);
+			path = UseCase;
+			sourceTree = "<group>";
+		};
+		44C91B9628CB5E2C0093B571 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				44793C8F28CC5FE200063B89 /* UIHelpers */,
+				44793C8728CC428E00063B89 /* Notes */,
+				44793C8628CC427F00063B89 /* Authentication */,
+				44C91B4228CB3CC70093B571 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		44D27A1F28CCE36700CE3494 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				44D27A2028CDB4AC00CE3494 /* AuthenticationState.swift */,
+				44D27A2228CDB4CF00CE3494 /* AuthenticationStore.swift */,
+				44D27A2428CDB51300CE3494 /* AuthenticationAction.swift */,
+				44D27A2628CDB57500CE3494 /* AuthenticationReducer.swift */,
+				44D27A2828CDB8E000CE3494 /* AuthenticationThunk.swift */,
+				44D27A4928CE46C300CE3494 /* ObservableAuthState.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		44D27A2A28CDF26E00CE3494 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				44D27A2B28CDF28400CE3494 /* NavigationState.swift */,
+				44D27A2D28CDF2B100CE3494 /* NavigationStore.swift */,
+				44D27A2F28CDF2E700CE3494 /* NavigationReducer.swift */,
+				44D27A3128CDF30F00CE3494 /* NavigationAction.swift */,
+				44D27A4B28CE4BEE00CE3494 /* NavigationTag.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		44D27A3728CE14D300CE3494 /* CoreDataPlatform */ = {
+			isa = PBXGroup;
+			children = (
+				44D27A4228CE1CB900CE3494 /* Models */,
+				44D27A3B28CE159900CE3494 /* Repository */,
+			);
+			path = CoreDataPlatform;
+			sourceTree = "<group>";
+		};
+		44D27A3B28CE159900CE3494 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				44D27A3C28CE15A600CE3494 /* Repository.swift */,
+				44D27A4528CE24ED00CE3494 /* UserRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		44D27A4228CE1CB900CE3494 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				44D27A4328CE1CC400CE3494 /* UserCD+Extension.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +427,11 @@
 			dependencies = (
 			);
 			name = ReswiftTodo;
+			packageProductDependencies = (
+				44C91B8F28CB5B4B0093B571 /* KeychainSwift */,
+				44793C7128CB619D00063B89 /* ReSwift */,
+				44793C7428CB61FD00063B89 /* ReSwiftThunk */,
+			);
 			productName = ReswiftTodo;
 			productReference = 44C91B3D28CB3CC70093B571 /* ReswiftTodo.app */;
 			productType = "com.apple.product-type.application";
@@ -161,6 +450,10 @@
 				44C91B4F28CB3CCB0093B571 /* PBXTargetDependency */,
 			);
 			name = ReswiftTodoTests;
+			packageProductDependencies = (
+				44C91B6B28CB3E800093B571 /* Nimble */,
+				44C91B6E28CB3EC20093B571 /* Quick */,
+			);
 			productName = ReswiftTodoTests;
 			productReference = 44C91B4D28CB3CCB0093B571 /* ReswiftTodoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -215,6 +508,13 @@
 				Base,
 			);
 			mainGroup = 44C91B3428CB3CC70093B571;
+			packageReferences = (
+				44C91B6A28CB3E800093B571 /* XCRemoteSwiftPackageReference "Nimble" */,
+				44C91B6D28CB3EC20093B571 /* XCRemoteSwiftPackageReference "Quick" */,
+				44C91B8E28CB5B4B0093B571 /* XCRemoteSwiftPackageReference "keychain-swift" */,
+				44793C7028CB619D00063B89 /* XCRemoteSwiftPackageReference "ReSwift" */,
+				44793C7328CB61FD00063B89 /* XCRemoteSwiftPackageReference "ReSwift-Thunk" */,
+			);
 			productRefGroup = 44C91B3E28CB3CC70093B571 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,8 +557,45 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44C91B7B28CB3F920093B571 /* User.swift in Sources */,
+				44793C7F28CB67B600063B89 /* NoteAction.swift in Sources */,
+				44C91B8228CB44570093B571 /* Note.swift in Sources */,
+				44793C8C28CC518B00063B89 /* NoteThunk.swift in Sources */,
+				44793C8528CC40A700063B89 /* RegistrationView.swift in Sources */,
 				44C91B4328CB3CC70093B571 /* ContentView.swift in Sources */,
+				44D27A2928CDB8E000CE3494 /* AuthenticationThunk.swift in Sources */,
+				44793C7B28CB65BA00063B89 /* NoteStore.swift in Sources */,
+				44C91B7E28CB3FC30093B571 /* FileManagerUtil.swift in Sources */,
+				44C91B8D28CB5AAD0093B571 /* KeyChainManager.swift in Sources */,
+				44D27A2728CDB57500CE3494 /* AuthenticationReducer.swift in Sources */,
+				44D27A2328CDB4CF00CE3494 /* AuthenticationStore.swift in Sources */,
+				44D27A4828CE32B700CE3494 /* String+Extensions.swift in Sources */,
+				44D27A2128CDB4AC00CE3494 /* AuthenticationState.swift in Sources */,
 				44C91B4128CB3CC70093B571 /* ReswiftTodoApp.swift in Sources */,
+				44793C7928CB653100063B89 /* NoteState.swift in Sources */,
+				44D27A2528CDB51300CE3494 /* AuthenticationAction.swift in Sources */,
+				44C91B9528CB5CF40093B571 /* NotesUseCase.swift in Sources */,
+				44793C7D28CB661D00063B89 /* NoteReducer.swift in Sources */,
+				44D27A3228CDF30F00CE3494 /* NavigationAction.swift in Sources */,
+				44D27A3028CDF2E700CE3494 /* NavigationReducer.swift in Sources */,
+				44C91B8628CB47160093B571 /* Date+Extension.swift in Sources */,
+				44D27A4428CE1CC400CE3494 /* UserCD+Extension.swift in Sources */,
+				44C91B7728CB3F670093B571 /* UserFM.swift in Sources */,
+				44D27A4A28CE46C300CE3494 /* ObservableAuthState.swift in Sources */,
+				44D27A1E28CCDD9500CE3494 /* Int64+Extension.swift in Sources */,
+				44793C8128CC3E7E00063B89 /* NotesView.swift in Sources */,
+				44C91B9328CB5CEC0093B571 /* UserUseCase.swift in Sources */,
+				44C91B8028CB44430093B571 /* NoteFM.swift in Sources */,
+				44793C9128CC605700063B89 /* ObservableState+Extension.swift in Sources */,
+				44C91B8A28CB564A0093B571 /* String+Extension.swift in Sources */,
+				44D27A3628CE13F200CE3494 /* ReswiftTodoDb.xcdatamodeld in Sources */,
+				44C91B8828CB56350093B571 /* Data+Extension.swift in Sources */,
+				44D27A2C28CDF28400CE3494 /* NavigationState.swift in Sources */,
+				44D27A2E28CDF2B100CE3494 /* NavigationStore.swift in Sources */,
+				44793C8328CC3FA700063B89 /* LoginView.swift in Sources */,
+				44D27A4C28CE4BEE00CE3494 /* NavigationTag.swift in Sources */,
+				44D27A4628CE24ED00CE3494 /* UserRepository.swift in Sources */,
+				44D27A3D28CE15A600CE3494 /* Repository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +603,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44C91B5228CB3CCB0093B571 /* ReswiftTodoTests.swift in Sources */,
+				44C91B5228CB3CCB0093B571 /* FileUtilManagerTest.swift in Sources */,
+				44D27A4E28CE6FDA00CE3494 /* NotesTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,6 +761,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -452,6 +791,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -583,6 +923,90 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		44793C7028CB619D00063B89 /* XCRemoteSwiftPackageReference "ReSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReSwift/ReSwift.git";
+			requirement = {
+				kind = exactVersion;
+				version = 6.1.0;
+			};
+		};
+		44793C7328CB61FD00063B89 /* XCRemoteSwiftPackageReference "ReSwift-Thunk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReSwift/ReSwift-Thunk.git";
+			requirement = {
+				kind = exactVersion;
+				version = 2.0.1;
+			};
+		};
+		44C91B6A28CB3E800093B571 /* XCRemoteSwiftPackageReference "Nimble" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Quick/Nimble";
+			requirement = {
+				kind = exactVersion;
+				version = 10.0.0;
+			};
+		};
+		44C91B6D28CB3EC20093B571 /* XCRemoteSwiftPackageReference "Quick" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Quick/Quick";
+			requirement = {
+				kind = exactVersion;
+				version = 5.0.1;
+			};
+		};
+		44C91B8E28CB5B4B0093B571 /* XCRemoteSwiftPackageReference "keychain-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/evgenyneu/keychain-swift.git";
+			requirement = {
+				kind = exactVersion;
+				version = 20.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		44793C7128CB619D00063B89 /* ReSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 44793C7028CB619D00063B89 /* XCRemoteSwiftPackageReference "ReSwift" */;
+			productName = ReSwift;
+		};
+		44793C7428CB61FD00063B89 /* ReSwiftThunk */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 44793C7328CB61FD00063B89 /* XCRemoteSwiftPackageReference "ReSwift-Thunk" */;
+			productName = ReSwiftThunk;
+		};
+		44C91B6B28CB3E800093B571 /* Nimble */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 44C91B6A28CB3E800093B571 /* XCRemoteSwiftPackageReference "Nimble" */;
+			productName = Nimble;
+		};
+		44C91B6E28CB3EC20093B571 /* Quick */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 44C91B6D28CB3EC20093B571 /* XCRemoteSwiftPackageReference "Quick" */;
+			productName = Quick;
+		};
+		44C91B8F28CB5B4B0093B571 /* KeychainSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 44C91B8E28CB5B4B0093B571 /* XCRemoteSwiftPackageReference "keychain-swift" */;
+			productName = KeychainSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		44D27A3428CE13F200CE3494 /* ReswiftTodoDb.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				44D27A3528CE13F200CE3494 /* ReswiftTodoDb.xcdatamodel */,
+			);
+			currentVersion = 44D27A3528CE13F200CE3494 /* ReswiftTodoDb.xcdatamodel */;
+			path = ReswiftTodoDb.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 44C91B3528CB3CC70093B571 /* Project object */;
 }
