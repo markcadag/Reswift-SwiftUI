@@ -19,7 +19,6 @@
 		44793C8C28CC518B00063B89 /* NoteThunk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44793C8B28CC518B00063B89 /* NoteThunk.swift */; };
 		44793C9128CC605700063B89 /* ObservableState+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44793C9028CC605700063B89 /* ObservableState+Extension.swift */; };
 		44C91B4128CB3CC70093B571 /* ReswiftTodoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C91B4028CB3CC70093B571 /* ReswiftTodoApp.swift */; };
-		44C91B4328CB3CC70093B571 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C91B4228CB3CC70093B571 /* ContentView.swift */; };
 		44C91B4528CB3CCB0093B571 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44C91B4428CB3CCB0093B571 /* Assets.xcassets */; };
 		44C91B4828CB3CCB0093B571 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44C91B4728CB3CCB0093B571 /* Preview Assets.xcassets */; };
 		44C91B5228CB3CCB0093B571 /* FileUtilManagerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C91B5128CB3CCB0093B571 /* FileUtilManagerTest.swift */; };
@@ -88,7 +87,6 @@
 		44793C9028CC605700063B89 /* ObservableState+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ObservableState+Extension.swift"; sourceTree = "<group>"; };
 		44C91B3D28CB3CC70093B571 /* ReswiftTodo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReswiftTodo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44C91B4028CB3CC70093B571 /* ReswiftTodoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReswiftTodoApp.swift; sourceTree = "<group>"; };
-		44C91B4228CB3CC70093B571 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		44C91B4428CB3CCB0093B571 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		44C91B4728CB3CCB0093B571 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		44C91B4D28CB3CCB0093B571 /* ReswiftTodoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReswiftTodoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -355,7 +353,6 @@
 				44793C8F28CC5FE200063B89 /* UIHelpers */,
 				44793C8728CC428E00063B89 /* Notes */,
 				44793C8628CC427F00063B89 /* Authentication */,
-				44C91B4228CB3CC70093B571 /* ContentView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -562,7 +559,6 @@
 				44C91B8228CB44570093B571 /* Note.swift in Sources */,
 				44793C8C28CC518B00063B89 /* NoteThunk.swift in Sources */,
 				44793C8528CC40A700063B89 /* RegistrationView.swift in Sources */,
-				44C91B4328CB3CC70093B571 /* ContentView.swift in Sources */,
 				44D27A2928CDB8E000CE3494 /* AuthenticationThunk.swift in Sources */,
 				44793C7B28CB65BA00063B89 /* NoteStore.swift in Sources */,
 				44C91B7E28CB3FC30093B571 /* FileManagerUtil.swift in Sources */,
