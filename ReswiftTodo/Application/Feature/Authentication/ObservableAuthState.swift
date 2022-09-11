@@ -20,7 +20,12 @@ class ObservableAuthState: ObservableState<AuthenticationState> {
                 print("Core data failed to load: \(error.localizedDescription)")
             }
         }
-        
         super.init(store: store)
+        
+        
+        if !KeyChainManager.shared.getUser().email.isEmpty {
+            dispatch(AuthenticationAction.authenticated(authenticated: true))
+        }
+
     }
 }

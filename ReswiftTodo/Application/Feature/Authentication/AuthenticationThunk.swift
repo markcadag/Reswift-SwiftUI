@@ -118,6 +118,7 @@ func register(context: NSManagedObjectContext) -> Thunk<AuthenticationState> {
 func signOut() -> Thunk<AuthenticationState> {
     return Thunk<AuthenticationState> { dispatch, getState in
         if getState() != nil {
+            KeyChainManager.shared.save(user: User(email: "", password: ""))
             dispatch(AuthenticationAction.email(email: ""))
             dispatch(AuthenticationAction.password(password: ""))
             dispatch(AuthenticationAction.authenticated(authenticated: false))
